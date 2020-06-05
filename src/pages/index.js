@@ -20,7 +20,7 @@ export default function Home() {
       <p className ={styles.p}>
        Palembang Digital adalah group berbagi
        informasi seputar IT development & Digital
-        didaerah Sumatera Selatan
+        didaerah Sumatera Selatan.
        </p> 
       </div>
 
