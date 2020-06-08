@@ -1,0 +1,44 @@
+#article{
+    margin-top: 50px;
+    
+}
+
+
+#article h1{
+    font-size: 15px;
+}
+
+.card-body h1{
+    font-weight: 300 !important;
+}
+
+@media(max-width:768px){
+    .card-body h1{
+        font-size: 11px !important;
+       
+    }   
+    #article{
+        margin-top: 10px;
+        
+    }
+    
+}
+
+.team-thumb:hover .team-hover {
+    opacity: 0.95;
+    transition-delay: 0.3s;
+    transform: translateY(0);
+}
+
+.team-thumb img {
+    transition: 0.5s 0.2s;
+}
+
+.team-thumb:hover img {
+    transform: scale(1.05);
+}
+.team-thumb {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
