@@ -8,10 +8,10 @@ class Footer extends React.Component{
                     <Container className="themed-container footer" fluid>
                     <Row className="cp">
                         <Col lg="4">
-                           <p>Whatsapp 628-1234-5678</p>
+                           <p>Whatsapp 0822-825-12539</p>
                         </Col>
                         <Col lg="4">
-                           <p>email admin@patal.com</p>
+                           <p>palembangdigital01@gmail.com</p>
                         </Col>
                         <Col lg="4">
                            <p>@palembang_digital</p>
