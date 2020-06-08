@@ -35,7 +35,7 @@ main{
     font-weight: bolder;
 }
 #tentang h2{
-    opacity: 60%;
+    color: gray;
     font-weight: bolder;
     font-size: 23px;
 }
