@@ -3,6 +3,7 @@ import "./partnership.css"
 import Sponsor from "../sponsor/sponsor"
 import {Container, Row, Col} from 'reactstrap';
 import logoMO from "../../images/logomyo_.png"
+import ShLogo from "../../images/shlogo.png"
 class Partnership extends React.Component{
     render(){
         return( 
@@ -14,7 +15,7 @@ class Partnership extends React.Component{
                 </div>
                 <Row className="partnership">
                     <Col>
-                    <Sponsor site="https://sriwijayahost.id" logo="https://sriwijayahost.id/wp-content/uploads/2018/09/sriwijaya-logo-border-putih.png"/>
+                    <Sponsor site="https://sriwijayahost.id" logo={ShLogo}/>
                     </Col>
                     <Col>
                     <Sponsor site="https://my-office.co.id" logo={logoMO}/>
