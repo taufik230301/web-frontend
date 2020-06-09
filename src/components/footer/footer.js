@@ -18,7 +18,7 @@ class Footer extends React.Component{
                         </Col>
                     </Row>
                     <hr></hr>
-                    <p>Palembang Digital Group ©Hak Cipta 2020</p>
+                    <p>Palembang Digital ©2020</p>
                     </Container>
                     
                     </div>
