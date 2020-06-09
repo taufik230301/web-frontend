@@ -11,16 +11,18 @@ class Events extends React.Component{
         return <div id="event">
                 <div className="acara">
                 <Container className="themed-container title " fluid>
-                    <h2>Acara diwaktu dekat</h2>
-                    <h1>Kegiatan Patal</h1>
+                    <div className="title">
+                        <h2>Acara diwaktu dekat</h2>
+                        <h1>Kegiatan Patal</h1>
+                    </div>
                     <Row className="cp">
-                        <Col  md="4" >
+                        <Col >
                             <Article img={article1} title="Workshop dasar implementasi penggunaan GIT"/>
                         </Col>
-                        <Col  md="4">
+                        <Col>
                             <Article img={article2} title="ODP Bareng MYO 2.0 : “Online Dapat Pengetahuan” Berbagi Tips & Pengalaman..."/>
                         </Col>
-                        <Col  md="4">
+                        <Col>
                            <Article img={article3} title="Webinar AWS Code Build & Code Deploy"/>
                         </Col>
                     </Row>
