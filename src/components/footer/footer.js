@@ -8,17 +8,17 @@ class Footer extends React.Component{
                     <Container className="themed-container footer" fluid>
                     <Row className="cp">
                         <Col lg="4">
-                           <p>Whatsapp 0822-825-12539</p>
+                        <a href="https://api.whatsapp.com/send?phone=6282282512539Whatsapp" target="_blank"> <p>Whatsapp 0822-825-12539</p> </a>
                         </Col>
                         <Col lg="4">
-                           <p>palembangdigital01@gmail.com</p>
+                        <a href="mailto:palembangdigital01@gmail.com" target="_blank"><p>palembangdigital01@gmail.com</p></a>
                         </Col>
                         <Col lg="4">
-                           <p>@palembang_digital</p>
+                        <a href="https://www.instagram.com/palembang_digital/" target="_blank"><p>@palembang_digital</p></a>
                         </Col>
                     </Row>
                     <hr></hr>
-                    <p>Palembang Digital Group ©Hak Cipta 2019</p>
+                    <p>Palembang Digital Group ©Hak Cipta 2020</p>
                     </Container>
                     
                     </div>

@@ -1,6 +1,6 @@
 .sponsorbox{
-    width: 200px;
-    height: 90px;
+    width: 400px;
+    height: 130px;
 
     margin: 0 auto;
     background-color: #ffffff !important;
@@ -10,7 +10,6 @@
 
 #sponsor .centerr{
   padding: 24px 0;
-
   text-align: center;
 }
 
@@ -18,20 +17,23 @@
 @media(max-width:1200px)
 {
     .sponsorbox img{
-        width: 90px !important;
+        width: 210px !important;
+    }
+    #sponsor .centerr{
+        padding: 10px 0;
     }
     .sponsorbox{
-        width: 150px;
+        width: 320px;
         height: 80px;
     }
 }
 @media(max-width:1000px)
 {
     .sponsorbox img{
-        width: 80px !important;
+        width: 200px !important;
     }
     .sponsorbox{
-        width: 130px;
+        width: 260px;
         
     }
     
@@ -39,6 +41,9 @@
 @media(max-width:768px)
 {   .sponsorbox{
     width: 90px;
+    }
+    #sponsor .centerr{
+        padding: 24px 0;
     }
     .sponsorbox img{
         width: 80px !important;
