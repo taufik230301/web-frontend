@@ -17,10 +17,10 @@ class Events extends React.Component{
                     </div>
                     <Row className="cp">
                         <Col >
-                            <Article img={article1} title="Workshop dasar implementasi penggunaan GIT"/>
+                            <Article img={article1} title="Berbagi Tips Menjadi Product Design serta UI Designer"/>
                         </Col>
                         <Col>
-                            <Article img={article2} title="ODP Bareng MYO 2.0 : “Online Dapat Pengetahuan” Berbagi Tips & Pengalaman..."/>
+                            <Article img={article2} title="Dasar & Implementasi Untuk Penggunaan GIT"/>
                         </Col>
                         <Col>
                            <Article img={article3} title="Webinar AWS Code Build & Code Deploy"/>

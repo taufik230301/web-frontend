@@ -6,7 +6,7 @@ const Sponsor = (props) =>{
         <div id="sponsor" className="sponsorbox">
             <div className="centerr">
                 
-            <a href={props.site}><img src={props.logo} width="150px" alt="logo_sponsor"/></a>
+            <a href={props.site} target="_blank"><img src={props.logo} width="300px" alt="logo_sponsor"/></a>
 
             </div>
         </div>

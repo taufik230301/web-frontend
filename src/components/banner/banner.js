@@ -1,7 +1,7 @@
 import React,{Component} from "react";
 import {Container, Row, Col} from 'reactstrap';
 import "./banner.css";
-import Logo from "./logo.jpg";
+import Logo from "../../images/logo.png";
 import scrolldown from "../../images/down.png";
 import {Link} from 'react-scroll';
 
