@@ -1,6 +1,6 @@
 import React from "react";
 import Join from "../components/join/join";
-import Event from "../components/event/event";
+import Event from "../components/about/about";
 import Visi from "../components/visi/visi";
 import Article from "../components/article/article";
 import Partnership from "../components/partnership/partnership";

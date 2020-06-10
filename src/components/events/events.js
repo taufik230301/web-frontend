@@ -5,15 +5,15 @@ import {Container, Row, Col} from 'reactstrap';
 import article1 from "../../images/artikel1.jpeg"
 import article2 from "../../images/artikel2.jpeg"
 import article3 from "../../images/artikel3.jpeg"
+import Title from "../title/title"
 
 class Events extends React.Component{
     render(){
         return <div id="event">
                 <div className="acara">
                 <Container className="themed-container title " fluid>
-                    <div className="title">
-                        <h2>Acara diwaktu dekat</h2>
-                        <h1>Kegiatan Patal</h1>
+                    <div>
+                        <Title subtitle="Acara diwaktu dekat" title="Kegiatan Patal"></Title>
                     </div>
                     <Row className="cp">
                         <Col >
