@@ -19,8 +19,20 @@
 #footer a{
     color: black;
 }
-
-
+@media(max-width:991px){
+    .cp a{
+        display: block;
+        text-align: center;
+    }
+}
+.cp p{
+    display: inline !important;
+    text-align: center;
+}
+.cp a{
+    display: block;
+    text-align: center;
+}
 #footer hr{
     margin-top:40px;
     padding-bottom :20px;
