@@ -1,46 +1,43 @@
-#article{
-    margin-top: 50px;
-    
+#article {
+  margin-top: 50px;
 }
 
-
-#article h3{
-    font-size: 15px;
+#article h3 {
+  font-size: 15px;
 }
 
-.card-body h3{
-    font-weight: 300 !important;
+.card-body h3 {
+  font-weight: 300 !important;
 }
 
-@media(max-width:768px){
-    .card-body h3{
-        font-size: 10px !important;
-        margin: 0px;
-    }   
-    #article{
-        margin-top: 10px;
-        
-    }
-    .card-body{
-        padding: 5px !important;
-    }
+@media (max-width: 768px) {
+  .card-body h3 {
+    font-size: 10px !important;
+    margin: 0px;
+  }
+  #article {
+    margin-top: 10px;
+  }
+  .card-body {
+    padding: 5px !important;
+  }
 }
 
 .team-thumb:hover .team-hover {
-    opacity: 0.95;
-    transition-delay: 0.3s;
-    transform: translateY(0);
+  opacity: 0.95;
+  transition-delay: 0.3s;
+  transform: translateY(0);
 }
 
 .team-thumb img {
-    transition: 0.5s 0.2s;
+  transition: 0.5s 0.2s;
 }
 
 .team-thumb:hover img {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 .team-thumb {
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-  }
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}

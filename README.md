@@ -1,13 +1,18 @@
 # Patal Web
+
 Patal Web is repository for https://palembangdigital.org/
 
 ### Getting Started
+
 To run this project localy, make sure minimum requirements are fulfilled.
+
 - `npm` version 6.14.4 or higher
 - `gatsby-cli` version 2.12.43 or higher
 
 ### Running in Local Machine
+
 1. **Make sure gatsby is installed as global command** (first time only)
+
 ```
 // install as global command
 > npm install -g gatsby-cli
@@ -16,7 +21,9 @@ To run this project localy, make sure minimum requirements are fulfilled.
 > gatsby --version
 
 ```
+
 2. **Clone this project and go to the root project to install all dependencies** (first time only)
+
 ```
 // clone the repository
 > git clone git@github.com:palembang-digital/web-frontend.git
@@ -27,7 +34,9 @@ To run this project localy, make sure minimum requirements are fulfilled.
 // install all the dependencies
 > npm install .
 ```
+
 3. **While still in root project build and run the app**
+
 ```
 // build and run the app
 > gatsby develop
