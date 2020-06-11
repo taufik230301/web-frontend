@@ -1,0 +1,58 @@
+.footer{
+    background-color: #e5e5e5;
+    width: 100%;
+    
+    
+}
+.footer p{
+    text-align: center;
+}
+#footer{
+    width: 100%;
+    background-color: #e5e5e5;
+    margin-top: 0px;
+    padding-bottom: 30px;
+}
+#footer p{
+    margin: 0 auto;
+}
+#footer a{
+    color: black;
+}
+@media(max-width:991px){
+    .cp a{
+        display: block;
+        text-align: center;
+    }
+}
+.cp p{
+    display: inline !important;
+    text-align: center;
+}
+.cp a{
+    display: block;
+    text-align: center;
+}
+#footer hr{
+    margin-top:40px;
+    padding-bottom :20px;
+}
+.kontak{
+    width: 80%;
+    margin: 0 auto;
+}
+@media(max-width:1200px)
+{
+    .kontak{
+        width: 100%;
+    }
+}
+@media(max-width:500px)
+{
+    .kontak p{
+        font-size: 11px;
+    }
+}
+.cp p{
+    padding-bottom: 10px;
+}
