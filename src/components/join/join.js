@@ -8,7 +8,7 @@ class Join extends React.Component {
         <div className="container-join">
           <div class="box">
             <div className="join">
-              <h1>Bersiap bergabung ke Patal?</h1>
+              <h1>Siap gabung ke Patal?</h1>
               <p>
                 Klik tombol daftar sekarang untuk mendaftarkan diri anda
                 terlebih dahulu!

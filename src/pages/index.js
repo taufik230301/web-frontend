@@ -24,7 +24,7 @@ export default function Home() {
         <Event />
         <Visi
           judul="Visi"
-          konten1="Menciptakan SDM khususnya masyarakat sumatera selatan untuk memiliki kemampuan daya saing yang unggul dibidang digital"
+          konten1="Menciptakan SDM khususnya masyarakat Sumatera Selatan untuk memiliki kemampuan daya saing yang unggul di bidang digital"
         />
         <Visi judul="Misi" konten1={<Misi />} />
         <Partnership />

@@ -14,7 +14,7 @@ class Footer extends React.Component {
             <Row className="cp">
               <Col lg="4">
                 <a
-                  href="https://api.whatsapp.com/send?phone=6282282512539Whatsapp"
+                  href="https://api.whatsapp.com/send?phone=6282282512539"
                   target="_blank">
                   <FontAwesomeIcon icon={faWhatsapp} /> <p>0822-825-12539</p>{" "}
                 </a>
@@ -35,7 +35,7 @@ class Footer extends React.Component {
               </Col>
             </Row>
             <hr></hr>
-            <p>Palembang Digital ©2020</p>
+            <p>Palembang Digital © 2020</p>
           </Container>
         </div>
       </div>
