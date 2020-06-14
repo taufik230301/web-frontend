@@ -1,5 +1,5 @@
 import React from "react";
-import { Title, Link, Meta } from "react-head";
+import { Title, Link } from "react-head";
 import Logo from "../../images/logo.png";
 const header = () => (
   <>
