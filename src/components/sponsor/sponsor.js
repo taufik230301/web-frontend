@@ -5,7 +5,7 @@ const Sponsor = (props) => {
   return (
     <div id="sponsor" className="sponsorbox">
       <div className="centerr">
-        <a href={props.site} target="_blank">
+        <a href={props.site} target="_blank" rel="noreferrer">
           <img src={props.logo} width="300px" alt="logo_sponsor" />
         </a>
       </div>
