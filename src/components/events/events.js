@@ -21,6 +21,12 @@ class Events extends React.Component {
             <Row className="cp">
               <Col>
                 <Article
+                  img="https://i.imgur.com/bZIm5cm.jpg"
+                  title="Coding ala anak terminal"
+                />
+              </Col>
+              <Col>
+                <Article
                   img={article1}
                   title="Berbagi Tips Menjadi Product Design serta UI Designer"
                 />
@@ -29,12 +35,6 @@ class Events extends React.Component {
                 <Article
                   img={article2}
                   title="Dasar & Implementasi Untuk Penggunaan GIT"
-                />
-              </Col>
-              <Col>
-                <Article
-                  img={article3}
-                  title="Webinar AWS Code Build & Code Deploy"
                 />
               </Col>
             </Row>
