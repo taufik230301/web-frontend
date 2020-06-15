@@ -1,14 +1,6 @@
 import "./article.css";
 import React from "react";
-import {
-  Card,
-  CardImg,
-  CardText,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  Button,
-} from "reactstrap";
+import { Card, CardImg, CardBody, CardTitle } from "reactstrap";
 
 const Article = (props) => {
   return (
@@ -18,7 +10,7 @@ const Article = (props) => {
           top
           width="100%"
           src={props.img}
-          width="264px"
+          // width="264px"
           alt="Card image cap"
         />
         <CardBody>

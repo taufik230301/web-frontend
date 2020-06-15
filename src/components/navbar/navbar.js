@@ -1,22 +1,9 @@
 import React, { useState } from "react";
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText,
-} from "reactstrap";
+import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from "reactstrap";
 import { Link } from "react-scroll";
 import "./navbar.css";
 import Logo from "../../images/logo.jpg";
-const Example = (props) => {
+const Example = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
@@ -25,7 +12,7 @@ const Example = (props) => {
     <div id="topNav">
       <Navbar color="light" className="topNav" light expand="md">
         <Link to="banner" smooth={true} duration={1000}>
-          <img src={Logo} width="50px" />
+          <img src={Logo} width="50px" alt="Palembang Digital Logo" />
         </Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

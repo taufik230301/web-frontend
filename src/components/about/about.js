@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import { Container, Row, Col } from "reactstrap";
+import { Container } from "reactstrap";
 import Title from "../title/title";
 
 class Event extends React.Component {
