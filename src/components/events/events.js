@@ -18,19 +18,19 @@ class Events extends React.Component {
                 title="Kegiatan Patal"></Title>
             </div>
             <Row className="cp">
-              <Col>
+              <Col className="col-12 col-sm-12 col-md-4">
                 <Article
                   img="https://i.imgur.com/bZIm5cm.jpg"
                   title="Coding ala anak terminal"
                 />
               </Col>
-              <Col>
+              <Col className="col-12 col-sm-12 col-md-4">
                 <Article
                   img={article1}
                   title="Berbagi Tips Menjadi Product Design serta UI Designer"
                 />
               </Col>
-              <Col>
+              <Col className="col-12 col-sm-12 col-md-4">
                 <Article
                   img={article2}
                   title="Dasar & Implementasi Untuk Penggunaan GIT"
