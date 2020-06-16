@@ -19,29 +19,37 @@ const Example = () => {
     <div id="topNav">
       <Navbar color="light" className="topNav" light expand="md">
         <Link to="banner" smooth={true} duration={1000}>
-          <img src={Logo} width="50px" alt="Palembang Digital Logo" />
+          <img src={Logo} width="50px" />
         </Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <Link to="event" smooth={true} duration={1000}>
+              <Link
+                to={`event`}
+                smooth={true}
+                duration={1000}
+                className="NavLink">
                 Acara
               </Link>
-            </NavItem>
-            <NavItem>
-              <Link to="tentang" smooth={true} duration={1000}>
+              <Link
+                to={`tentang`}
+                smooth={true}
+                duration={1000}
+                className="NavLink">
                 Tentang
               </Link>
-            </NavItem>
-            <NavItem>
-              <Link to="footer" smooth={true} duration={1000}>
+              <Link
+                to={`footer`}
+                smooth={true}
+                duration={1000}
+                className="NavLink">
                 Kontak
               </Link>
+              <NavLink href="/patam-team/" className="NavLink">
+                Team Page
+              </NavLink>
             </NavItem>
-            <NavLink href="/card1/" className="NavLink">
-              Team Page
-            </NavLink>
           </Nav>
         </Collapse>
       </Navbar>
