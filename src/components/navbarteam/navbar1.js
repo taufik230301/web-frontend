@@ -36,7 +36,7 @@ const Example = (props) => {
               <Link to={`/`} smooth={true} duration={1000} className="NavLink">
                 Kontak
               </Link>
-              <NavLink href="/card1/" className="NavLink">
+              <NavLink href="/patam-team/" className="NavLink">
                 Team Page
               </NavLink>
             </NavItem>
