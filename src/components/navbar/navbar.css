@@ -6,9 +6,10 @@
 }
 #topNav a {
   margin-left: 20px;
-  text-decoration: none !important;
+  xtet-decoration: none !important;
   font-weight: bold;
 }
+
 #topNav li {
   text-decoration: none !important;
   font-weight: bold;
@@ -30,11 +31,15 @@
 }
 @media (max-width: 768px) {
   .nav-item a {
-    font-weight: 300;
-    text-align: center;
+    font-weight: bold;
+    margin: 5px;
+    padding: 0px;
   }
   .nav-item {
-    width: 10%;
+    width: 100%;
     margin-top: 20px;
+  }
+  .NavLink {
+    width: 500px;
   }
 }
