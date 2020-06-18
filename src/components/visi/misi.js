@@ -17,7 +17,7 @@ const Misi = (props) => {
           <li>
             Meningkatkan skill dalam hal wawasan dan pengetahuan di bidang
             digital seperti software development, infrastruktur IT dan lain
-            sebaginya yang berkaitan dengan dunia digital
+            sebagainya yang berkaitan dengan dunia digital
           </li>
         </ol>
       </div>

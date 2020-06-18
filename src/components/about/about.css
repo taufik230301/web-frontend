@@ -59,8 +59,6 @@ main {
   margin-top: 25px;
   text-align: justify;
   font-weight: 400;
-  padding-left: 10px !important;
-  padding-right: 10px !important;
 }
 @media (max-width: 700px) {
   #tentang h1 {

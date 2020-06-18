@@ -3,15 +3,17 @@
   top: 0;
   z-index: 2;
   background-color: #fafafa;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 #topNav a {
-  margin-left: 20px;
   text-decoration: none !important;
   font-weight: bold;
 }
 #topNav li {
   text-decoration: none !important;
   font-weight: bold;
+  margin-left: 20px;
 }
 #topNav a:hover {
   font-weight: bold;
@@ -19,6 +21,9 @@
 }
 .topNav {
   font-weight: bold !important;
+  width: 70% ;
+  margin: 0 auto !important;
+  padding: 0px !important;
 }
 @media (min-width: 768px) {
   .topNav {
@@ -32,6 +37,9 @@
   .nav-item a {
     font-weight: 300;
     text-align: center;
+  }
+  .topNav {
+    width: 90% ;
   }
   .nav-item {
     width: 10%;

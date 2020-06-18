@@ -14,7 +14,7 @@ class Footer extends React.Component {
     return (
       <div id="footer">
         <div className="kontak">
-          <Container className="themed-container footer" fluid>
+          <Container className="footer" fluid>
             <Row className="cp">
               <Col lg="3">
                 <a
