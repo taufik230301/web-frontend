@@ -24,7 +24,7 @@ class Events extends React.Component {
                   title="Pengenalan GraphDB"
                 />
               </Col>
-              <Col>
+              <Col className="padding-10">
                 <Article
                   img="https://i.imgur.com/bZIm5cm.jpg"
                   title="Coding ala anak terminal"

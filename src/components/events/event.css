@@ -7,14 +7,26 @@
   background-color: #fafafa !important;
   padding-top: 40px;
 }
+.themed-container{
+  width: 100%;
+  padding: 0px !important;
+}
 .acara .col {
-  padding: 10px !important;
+  padding: 0px !important;
+  
+}
+.acara .padding-10 {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  
 }
 .title {
   background-color: #fafafa !important;
 }
 #event .cp {
   background-color: #fafafa !important;
+  width: 100%;
+  margin:0px !important;
 }
 #event h1 {
   margin-top: 6px;
