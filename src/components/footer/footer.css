@@ -1,58 +1,57 @@
-.footer{
-    background-color: #e5e5e5;
-    width: 100%;
-    
-    
+.footer {
+  background-color: #e5e5e5;
+  width: 100%;
 }
-.footer p{
-    text-align: center;
+.footer p {
+  text-align: center;
+  
 }
-#footer{
-    width: 100%;
-    background-color: #e5e5e5;
-    margin-top: 0px;
-    padding-bottom: 30px;
+#footer {
+  width: 100%;
+  background-color: #e5e5e5;
+  margin-top: 0px;
+  padding-bottom: 30px;
 }
-#footer p{
-    margin: 0 auto;
+#footer p {
+  margin: 0 auto;
+  color: rgb(116, 105, 105) !important;
 }
-#footer a{
-    color: black;
+#footer a {
+  color: black;
 }
-@media(max-width:991px){
-    .cp a{
-        display: block;
-        text-align: center;
-    }
-}
-.cp p{
-    display: inline !important;
-    text-align: center;
-}
-.cp a{
+@media (max-width: 991px) {
+  .cp a {
     display: block;
     text-align: center;
+  }
 }
-#footer hr{
-    margin-top:40px;
-    padding-bottom :20px;
+
+#footer .cp p {
+  display: inline !important;
+  text-align: center;
 }
-.kontak{
-    width: 80%;
-    margin: 0 auto;
+#footer .cp a {
+  display: block;
+  text-align: center;
 }
-@media(max-width:1200px)
-{
-    .kontak{
-        width: 100%;
-    }
+#footer hr {
+  margin-top: 40px;
+  padding-bottom: 20px;
 }
-@media(max-width:500px)
-{
-    .kontak p{
-        font-size: 11px;
-    }
+.kontak {
+  width: 100%;
+  margin: 0 auto;
 }
-.cp p{
-    padding-bottom: 10px;
+@media (max-width: 1200px) {
+  .kontak {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .kontak p {
+    font-size: 11px;
+  }
+}
+#footer .cp p {
+  padding-bottom: 10px;
 }

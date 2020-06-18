@@ -1,67 +1,79 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 
-*{
-    font-family:'Montserrat', sans-serif;
-    
+* {
+  font-family: "Montserrat", sans-serif;
 }
-main{
-    background-color: #fafafa;
+main {
+  background-color: #fafafa;
 }
 #tentang {
-    padding-top: 100px;
-    margin-right:auto;
-    margin-left:auto;
-    width: 70%;
-    
+  padding-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
 }
-*{
-    font-family: 'Montserrat', sans-serif;
+* {
+  font-family: "Montserrat", sans-serif;
 }
-@media (min-width:768px){.container{width:750px}}
-@media (min-width:992px){.container{width:970px}}
-@media (min-width:1200px){.container{width:100%}}
-#tentang h1,#tentang p,#tentang h2{
-    text-align: justify !important;
-    margin-bottom: 2px;
-    margin-top: 5px;
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
 }
-.container-fluid{
-    padding-right:15px;
-    padding-left:15px;
-    margin-right:auto;
-    margin-left:auto
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
 }
-#tentang h1{
-    font-weight: bolder;
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
+  }
 }
-#tentang h2{
-    color: gray;
-    font-weight: bolder;
-    font-size: 23px;
+#tentang h1,
+#tentang p,
+#tentang h2 {
+  text-align: justify !important;
+  margin-bottom: 2px;
+  margin-top: 5px;
 }
-#tentang h1,#tentang h2{
-    text-align: left !important;
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
-#tentang p{
-    margin-top: 25px;
-    text-align: justify;
-    font-weight: 400;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+#tentang h1 {
+  font-weight: bolder;
 }
-@media(max-width: 700px){
-    #tentang h1{
-        font-size: 16px;
-    }
-    #tentang h2{
-        font-size: 13px;
-    }
-    #tentang p{
-        font-size: 11px;
-    }
+#tentang h2 {
+  color: gray;
+  font-weight: bolder;
+  font-size: 23px;
 }
-@media(max-width: 500px){
-    #tentang h1, #tentang h2{
-        text-align: center !important;
-    }
+#tentang h1,
+#tentang h2 {
+  text-align: left !important;
+}
+#tentang p {
+  margin-top: 25px;
+  text-align: justify;
+  font-weight: 400;
+}
+@media (max-width: 700px) {
+  #tentang h1 {
+    font-size: 16px;
+  }
+  #tentang h2 {
+    font-size: 13px;
+  }
+  #tentang p {
+    font-size: 11px;
+  }
+}
+@media (max-width: 500px) {
+  #tentang h1,
+  #tentang h2 {
+    text-align: center !important;
+  }
 }

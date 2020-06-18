@@ -1,7 +1,8 @@
-import React from "react"
-import "./about.css"
-import {Container, Row, Col} from 'reactstrap';
-import Title from "../title/title"
+import React from "react";
+import "./about.css";
+import { Container } from "reactstrap";
+import Title from "../title/title";
+
 
 class Event extends React.Component{
     render(){
@@ -18,6 +19,6 @@ class Event extends React.Component{
                 </div>
               
     }
-}
+  }
 
 export default Event;
