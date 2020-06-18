@@ -43,3 +43,25 @@
     width: 500px;
   }
 }
+@media (min-width: 768px) {
+  .topNav {
+    margin: 0px 8% auto;
+  }
+}
+.topNav img {
+  margin-left: 5px !important;
+}
+@media (max-width: 418px) {
+  .nav-item a {
+    font-weight: bold;
+    margin: 5px;
+    padding: 0px;
+  }
+  .nav-item {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .NavLink {
+    width: 350px;
+  }
+}
