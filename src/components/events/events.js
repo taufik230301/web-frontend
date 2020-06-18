@@ -25,10 +25,11 @@ class Events extends React.Component {
                   title="Coding ala anak terminal"
                 />
               </Col>
-              <Col>
+              <Col className="padding-10">
                 <Article
                   img={article1}
-                  title="Berbagi Tips Menjadi Product Design serta UI Designer"
+                  title="Berbagi Tips Menjadi Product Design serta UI Designer "
+                  
                 />
               </Col>
               <Col>
