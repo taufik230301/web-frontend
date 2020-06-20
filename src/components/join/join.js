@@ -15,7 +15,7 @@ class Join extends React.Component {
               </p>
               <div className="boxfit">
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSeXg6QZKgZM7juL_xVDs9ufukMdtF82sitoRL3POh2bZ0xaiw/viewform?usp=sf_link"
+                  href="https://bit.ly/web-join-patal"
                   target="_blank"
                   rel="noreferrer">
                   <button>Daftar Sekarang</button>
