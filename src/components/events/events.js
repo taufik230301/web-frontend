@@ -20,13 +20,13 @@ class Events extends React.Component {
             <Row className="cp">
               <Col>
                 <Article
-                  img="https://i.ibb.co/6rpDyvt/workshop5-1.jpg"
+                  img="https://i.ibb.co/rFL5Qbp/workshop5-1.jpg"
                   title="Pengenalan GraphDB"
                 />
               </Col>
               <Col className="padding-10">
                 <Article
-                  img="https://i.ibb.co/GkmKBqC/workshop5-0.jpg"
+                  img="https://i.ibb.co/hH0PhS2/workshop5-0.jpg"
                   title="Coding ala anak terminal"
                 />
               </Col>
