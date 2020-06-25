@@ -1,0 +1,164 @@
+[
+    {
+        "name": "Joneten",
+        "job": "Chairman",
+        "imageUrl": "/images/teams/Joneten.jpeg"
+    },
+    {
+        "name": "Sofian Hadiwijaya",
+        "job": "Advisor / Patron",
+        "imageUrl": "/images/teams/Sofian.jpeg",
+        "links": {
+            "github": "https://github.com/sofianhw",
+            "linkedin": "https://www.linkedin.com/in/sofianhw"
+        }
+    },
+    {
+        "name": "Arief Rahmansyah",
+        "job": "Engineering Manager",
+        "imageUrl": "/images/teams/Arief.jpg",
+        "links": {
+            "github": "https://github.com/ariefrahmansyah"
+        }
+    },
+    {
+        "name": "Faisal Morensya",
+        "job": "Engineering Manager",
+        "imageUrl": "/images/teams/Faisal.jpeg",
+        "links": {
+            "github": "https://github.com/lloistborn"
+        }
+    },
+    {
+        "name": "Novita Hidayati",
+        "job": "Product Manager",
+        "imageUrl": "/images/teams/Novita.jpg",
+        "links": {
+            "github": "https://github.com/hinovita",
+            "linkedin": "www.linkedin.com/in/hinovita"
+        }
+    },
+    {
+        "name": "Roylisto Putra Pradana",
+        "job": "Facilitator",
+        "imageUrl": "/images/teams/Roylisto.jpeg",
+        "links": {
+            "github": "https://github.com/tokanggit",
+            "linkedin": "https://www.linkedin.com/in/roylisto/"
+        }
+    },
+    {
+        "name": "Salahudin Al Ayubi",
+        "job": "UI/UX Lead",
+        "imageUrl": "/images/teams/Salahudin.jpg",
+        "links": {
+            "github": "https://github.com/salahudinalyb",
+            "linkedin": "https://www.linkedin.com/in/salahudin-al-ayubi04/"
+        }
+    },
+    {
+        "name": "Annisa Isma Abella",
+        "job": "Event Management Lead",
+        "imageUrl": "/images/teams/Annisa.jpg",
+        "links": {
+            "github": "https://github.com/annisaaismaa",
+            "linkedin": "https://www.linkedin.com/in/annisaaismaa"
+        }
+    },
+    {
+        "name": "Deny Malyono",
+        "job": "DevOps Engineer",
+        "imageUrl": "/images/teams/Malyono.jpg",
+        "links": {
+            "github": "https://github.com/maximalyono"
+        }
+    },
+    {
+        "name": "Rezi Apriliansyah",
+        "job": "Senior Backend Developer",
+        "imageUrl": "/images/teams/Rezi.jpg",
+        "links": {
+            "github": "https://github.com/apranta",
+            "linkedin": "https://www.linkedin.com/in/rezi-apriliansyah/"
+        }
+    },
+    {
+        "name": "Azhary Arliansyah",
+        "job": "Senior Frontend Developer",
+        "imageUrl": "/images/teams/Azhary.jpeg",
+        "links": {
+            "github": "https://github.com/azhry",
+            "linkedin": "https://www.linkedin.com/in/azhary-arliansyah",
+            "instagram": "https://instagram.com/azharyarliansyah"
+        }
+    },
+    {
+        "name": "Rizqy Adi Surya",
+        "job": "UI/UX Researcher",
+        "imageUrl": "/images/teams/RizkiAdi.jpeg",
+        "links": {
+            "github": "https://github.com/srizqiadisurya",
+            "linkedin": "https://www.linkedin.com/in/rizqiadisurya/"
+        }
+    },
+    {
+        "name": "Shabrina Asmarani",
+        "job": "Copywriter",
+        "imageUrl": "/images/teams/Shabrina.jpg",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/shabrinaasmarani/"
+        }
+    },
+    {
+        "name": "Rizky Putra",
+        "job": "Backend Developer",
+        "imageUrl": "/images/teams/RizkyP.jpg",
+        "links": {
+            "github": "https://github.com/Hiraisin"
+        }
+    },
+    {
+        "name": "Misbahudin Munadi",
+        "job": "Frontend Developer",
+        "imageUrl": "/images/teams/Udin.jpg",
+        "links": {
+            "github": "https://github.com/Misbahudin04"
+        }
+    },
+    {
+        "name": "Muhammad Rizky Ariyanto",
+        "job": "Content Writer",
+        "imageUrl": "/images/teams/RizkyA.jpg"
+    },
+    {
+        "name": "Friski Kasviko",
+        "job": "Backend Developer",
+        "imageUrl": "/images/teams/Friski.JPG"
+    },
+    {
+        "name": "Taufiqulhakim",
+        "job": "Frontend Developer",
+        "imageUrl": "/images/teams/Taufiq.jpg",
+        "links": {
+            "github": "https://github.com/taufik230301"
+        }
+    },
+    {
+        "name": "Nyayu Putri Aulia",
+        "job": "Graphic Designer & Social Media",
+        "imageUrl": "/images/teams/Nyayu.jpg"
+    },
+    {
+        "name": "Eko Muliyo",
+        "job": "Frontend Developer",
+        "imageUrl": "/images/teams/Eko.jpeg",
+        "links": {
+            "github": "https://github.com/ekomuliyo"
+        }
+    },
+    {
+        "name": "Gerry Jeven Timoti",
+        "job": "Graphic Designer & Video Editor",
+        "imageUrl": "/images/teams/Gery.jpeg"
+    }
+]

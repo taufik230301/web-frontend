@@ -1,4 +1,4 @@
-#topNav {
+/* #topNav {
   position: sticky;
   top: 0;
   z-index: 2;
@@ -6,7 +6,6 @@
 }
 
 #topNav a {
-  margin-left: 20px;
   text-decoration: none !important;
   font-weight: bold;
 }
@@ -42,4 +41,4 @@
     width: 10%;
     margin-top: 20px;
   }
-}
+} */
