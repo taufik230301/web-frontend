@@ -21,6 +21,7 @@
     "@fortawesome/react-fontawesome": "^0.1.10",
     "bootstrap": "^4.5.0",
     "gatsby": "^2.21.37",
+    "gatsby-cli": "^2.12.47",
     "gatsby-plugin-react-head": "^1.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -31,8 +32,10 @@
   },
   "devDependencies": {
     "husky": "^3.1.0",
+    "image-webpack-loader": "^6.0.0",
     "lint-staged": "^9.5.0",
-    "prettier": "2.0.5"
+    "prettier": "2.0.5",
+    "url-loader": "^4.1.0"
   },
   "repository": {
     "type": "git",
