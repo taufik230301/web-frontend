@@ -25,31 +25,49 @@ const NavbarDefault = () => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <Link
-                to={`event`}
-                smooth={true}
-                duration={1000}
-                className="NavLink">
-                Acara
-              </Link>
+              {!currentPath.startsWith("/patal-team") ? (
+                <Link
+                  to={`event`}
+                  smooth={true}
+                  duration={1000}
+                  className="NavLink">
+                  Acara
+                </Link>
+              ) : (
+                <GatsbyLink to="/#event" className="NavLink">
+                  Acara
+                </GatsbyLink>
+              )}
             </NavItem>
             <NavItem>
-              <Link
-                to={`tentang`}
-                smooth={true}
-                duration={1000}
-                className="NavLink">
-                Tentang
-              </Link>
+              {!currentPath.startsWith("/patal-team") ? (
+                <Link
+                  to={`tentang`}
+                  smooth={true}
+                  duration={1000}
+                  className="NavLink">
+                  Tentang
+                </Link>
+              ) : (
+                <GatsbyLink to="/#tentang" className="NavLink">
+                  Tentang
+                </GatsbyLink>
+              )}
             </NavItem>
             <NavItem>
-              <Link
-                to={`footer`}
-                smooth={true}
-                duration={1000}
-                className="NavLink">
-                Kontak
-              </Link>
+              {!currentPath.startsWith("/patal-team") ? (
+                <Link
+                  to={`footer`}
+                  smooth={true}
+                  duration={1000}
+                  className="NavLink">
+                  Kontak
+                </Link>
+              ) : (
+                <GatsbyLink to="/#footer" className="NavLink">
+                  Kontak
+                </GatsbyLink>
+              )}
             </NavItem>
             <NavItem
               className={currentPath.startsWith("/patal-team") ? "active" : ""}>
