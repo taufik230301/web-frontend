@@ -4,6 +4,7 @@
         "job": "Chairman",
         "imageUrl": "/images/teams/Joneten.jpeg",
         "links": {
+            "linkedin": "https://id.linkedin.com/in/joneten-saputra-913816105",
             "instagram": "https://www.instagram.com/jonetensaputra/"
         }
     },
@@ -116,7 +117,7 @@
         }
     },
     {
-        "name": "Rizqy Adi Surya",
+        "name": "Rizqi Adi Surya",
         "job": "UI/UX Researcher",
         "imageUrl": "/images/teams/RizkiAdi.jpeg",
         "links": {
@@ -140,6 +141,7 @@
         "job": "Student Partner",
         "imageUrl": "/images/teams/Riska.jpg",
         "links": {
+            "linkedin": "https://www.linkedin.com/in/riskaatm",
             "instagram": "https://www.instagram.com/riskaa.tm/"
         }
     },
