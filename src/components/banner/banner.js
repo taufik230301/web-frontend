@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import "./banner.css";
-import Logo from "../../images/logo.png";
-import scrolldown from "../../images/down.png";
 import { Link } from "react-scroll";
 
 class Banner extends Component {
@@ -15,21 +13,21 @@ class Banner extends Component {
               <h2>Halo,</h2>
               <h1>wong kito!</h1>
               <p>
-                Patal (Palembang Digital)
+                Palembang Digital (Patal)
                 <span className="bold">
                   {" "}
-                  adalah group berbagi informasi seputar IT Development &
+                  adalah grup berbagi informasi seputar IT Development &amp;
                   Digital di daerah Sumatera Selatan.
                 </span>
               </p>
             </Col>
             <Col sm="6" className="logo">
-              <img src={Logo} width="180px" alt="logo" />
+              <img src={"/logo.png"} width="180px" alt="logo" />
             </Col>
           </Row>
           <div className="scroll-down">
             <Link to="join" smooth={true} duration={1000}>
-              <img src={scrolldown} alt="scroll" width="17px"></img>
+              <img src={"/icons/down.png"} alt="scroll" width="17px"></img>
             </Link>
           </div>
         </Container>

@@ -4,9 +4,9 @@ import "./join.css";
 class Join extends React.Component {
   render() {
     return (
-      <div id="join" class="warna">
+      <div id="join" className="warna">
         <div className="container-join">
-          <div class="box">
+          <div className="box">
             <div className="join">
               <h1>Siap gabung ke Patal?</h1>
               <p>
