@@ -16,7 +16,7 @@ class Events extends React.Component {
                 title="Kegiatan Patal"></Title>
             </div>
             <Row className="cp">
-              <Col>
+              <Col className="col-12 col-sm-12 col-md-4">
                 <Article
                   img="https://i.ibb.co/d57X5CW/patalper2.jpg"
                   title="Patal Perform 2"
@@ -28,7 +28,7 @@ class Events extends React.Component {
                   title="Pengenalan GraphDB"
                 />
               </Col>
-              <Col className="padding-10">
+              <Col className="col-12 col-sm-12 col-md-4">
                 <Article
                   img="https://i.ibb.co/hH0PhS2/workshop5-0.jpg"
                   title="Coding ala anak terminal"
