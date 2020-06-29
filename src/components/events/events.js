@@ -1,6 +1,7 @@
 import React from "react";
 import "./event.css";
 import Article from "../article/article";
+import EventsData from "../../content/events.json";
 import { Container, Row, Col } from "reactstrap";
 import Title from "../title/title";
 
@@ -16,24 +17,17 @@ class Events extends React.Component {
                 title="Kegiatan Patal"></Title>
             </div>
             <Row className="cp">
-              <Col className="col-12 col-sm-12 col-md-4">
-                <Article
-                  img="https://i.ibb.co/d57X5CW/patalper2.jpg"
-                  title="Patal Perform 2"
-                />
-              </Col>
-              <Col>
-                <Article
-                  img="https://i.ibb.co/rFL5Qbp/workshop5-1.jpg"
-                  title="Pengenalan GraphDB"
-                />
-              </Col>
-              <Col className="col-12 col-sm-12 col-md-4">
-                <Article
-                  img="https://i.ibb.co/hH0PhS2/workshop5-0.jpg"
-                  title="Coding ala anak terminal"
-                />
-              </Col>
+              {EventsData.content.map((data, index) => {
+                return (
+                  <Col key={index}>
+                    <Article
+                      img={data.image_url}
+                      title={data.title}
+                      url={data.registration_url}
+                    />
+                  </Col>
+                );
+              })}
             </Row>
           </Container>
         </div>
