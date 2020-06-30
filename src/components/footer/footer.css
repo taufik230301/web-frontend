@@ -26,6 +26,8 @@
   }
 }
 
+
+
 #footer .cp p {
   display: inline !important;
   text-align: center;
@@ -51,6 +53,12 @@
     text-align: left;
     padding-top: 10px;
   }
+ 
+}
+@media (min-width: 1200px) {
+  #footer .cp  {
+     padding-top: 40px;
+}
 }
 @media (max-width: 500px) {
   .kontak p {
