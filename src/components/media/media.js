@@ -25,7 +25,7 @@ function MediaList(){
                 {   names.map(name => 
                     <Col className={`${MediaStyles["img"]} `}>
                         <div  >
-                            <img src={name} width="100px" alt="logo_sponsor"/>
+                            <img src={name} width="150px" alt="logo_sponsor"/>
                         </div>
                     </Col>
                     )
