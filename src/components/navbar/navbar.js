@@ -1,36 +1,79 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from "reactstrap";
 import { Link } from "react-scroll";
+import { Link as GatsbyLink } from "gatsby";
 import "./navbar.css";
-import Logo from "../../images/logo.jpg";
-const Example = () => {
+const NavbarDefault = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [currentPath, setCurrentPath] = useState("");
 
   const toggle = () => setIsOpen(!isOpen);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setCurrentPath(window.location.pathname);
+    }
+  }, [currentPath]);
 
   return (
     <div id="topNav">
       <Navbar color="light" className="topNav" light expand="md">
-        <Link to="banner" smooth={true} duration={1000}>
-          <img src={Logo} width="50px" alt="Palembang Digital Logo" />
-        </Link>
+        <GatsbyLink to="/">
+          <img alt="Palembang Digital" src={"/logo.png"} width="50px" />
+        </GatsbyLink>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <Link to="event" smooth={true} duration={1000}>
-                Acara
-              </Link>
+              {!currentPath.startsWith("/patal-team") ? (
+                <Link
+                  to={`event`}
+                  smooth={true}
+                  duration={1000}
+                  className="NavLink">
+                  Acara
+                </Link>
+              ) : (
+                <GatsbyLink to="/#event" className="NavLink">
+                  Acara
+                </GatsbyLink>
+              )}
             </NavItem>
             <NavItem>
-              <Link to="tentang" smooth={true} duration={1000}>
-                Tentang
-              </Link>
+              {!currentPath.startsWith("/patal-team") ? (
+                <Link
+                  to={`tentang`}
+                  smooth={true}
+                  duration={1000}
+                  className="NavLink">
+                  Tentang
+                </Link>
+              ) : (
+                <GatsbyLink to="/#tentang" className="NavLink">
+                  Tentang
+                </GatsbyLink>
+              )}
             </NavItem>
             <NavItem>
-              <Link to="footer" smooth={true} duration={1000}>
-                Kontak
-              </Link>
+              {!currentPath.startsWith("/patal-team") ? (
+                <Link
+                  to={`footer`}
+                  smooth={true}
+                  duration={1000}
+                  className="NavLink">
+                  Kontak
+                </Link>
+              ) : (
+                <GatsbyLink to="/#footer" className="NavLink">
+                  Kontak
+                </GatsbyLink>
+              )}
+            </NavItem>
+            <NavItem
+              className={currentPath.startsWith("/patal-team") ? "active" : ""}>
+              <GatsbyLink to="/patal-team" className="NavLink">
+                Tim
+              </GatsbyLink>
             </NavItem>
           </Nav>
         </Collapse>
@@ -39,4 +82,4 @@ const Example = () => {
   );
 };
 
-export default Example;
+export default NavbarDefault;

@@ -35,7 +35,7 @@
 }
 @media (max-width: 768px) {
   .sponsorbox {
-    width: 90px;
+    width: 100px;
   }
   #sponsor .centerr {
     padding: 24px 0;
@@ -46,7 +46,7 @@
 }
 @media (max-width: 600px) {
   .sponsorbox {
-    width: 80px;
+    width: 100px;
   }
   .sponsorbox img {
     width: 70px !important;

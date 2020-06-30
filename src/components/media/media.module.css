@@ -1,0 +1,46 @@
+.centerMargin {
+    margin: 0 auto;
+}
+.container{
+    width: 100%;
+    background-color: #ffffff;
+    overflow: auto;
+    margin: 0 auto;
+}
+.containers{
+    width: 100%;
+    background-color: #ffffff;
+}
+.img {
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    float: left;
+    min-width: 100px;
+}
+.title {
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 20px;
+}
+.box{
+    width: 350%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media(min-width:700px)
+{
+    .box{
+        width: 80%;
+        padding-left: 0px;
+    }
+    .title {
+        font-size: 25px;
+    }
+    .img {
+        min-width: 200px;
+    }
+}
+

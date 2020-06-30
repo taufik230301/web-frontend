@@ -16,14 +16,6 @@ class Footer extends React.Component {
         <div className="kontak">
           <Container className="footer" fluid>
             <Row className="cp">
-              <Col lg="3">
-                <a
-                  href="https://api.whatsapp.com/send?phone=6282282512539"
-                  target="_blank"
-                  rel="noreferrer">
-                  <FontAwesomeIcon icon={faWhatsapp} /> <p>0822-825-12539</p>{" "}
-                </a>
-              </Col>
               <Col lg="3" className="ig">
                 <a
                   href="mailto:palembangdigital01@gmail.com"
@@ -49,6 +41,14 @@ class Footer extends React.Component {
                   rel="noreferrer">
                   <FontAwesomeIcon icon={faYoutubeSquare} />{" "}
                   <p>palembang_digital</p>
+                </a>
+              </Col>
+              <Col lg="3">
+                <a
+                  href="https://api.whatsapp.com/send?phone=6282282512539"
+                  target="_blank"
+                  rel="noreferrer">
+                  <FontAwesomeIcon icon={faWhatsapp} /> <p>0822-825-12539</p>{" "}
                 </a>
               </Col>
             </Row>
