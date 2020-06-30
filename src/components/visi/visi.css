@@ -38,7 +38,11 @@
     font-size: 16px;
   }
   .visimisi p {
-    font-size: 11px;
+    font-size: 11px !important;
+  }
+  .visimisi {
+    width: 90%;
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 500px) {

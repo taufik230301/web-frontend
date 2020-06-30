@@ -45,12 +45,19 @@
 @media (max-width: 1200px) {
   .kontak {
     width: 100%;
+    
+  }
+  #footer .cp a {
+    text-align: left;
+    padding-top: 10px;
   }
 }
 @media (max-width: 500px) {
   .kontak p {
     font-size: 11px;
+    
   }
+  
 }
 #footer .cp p {
   padding-bottom: 10px;
