@@ -62,8 +62,6 @@ class PatalTeam extends React.PureComponent {
             ))}
           </div>
         </div>
-
-        <Partnership />
         <Footer />
       </div>
     );
