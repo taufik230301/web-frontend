@@ -12,6 +12,7 @@ import Footer from "../components/footer/footer";
 import Header from "../components/header/header";
 
 import Media from '../components/media/media'
+import Sponsors from "../components/sponsors/sponsor";
 class Home extends React.Component {
   render() {
     return (
@@ -29,7 +30,7 @@ class Home extends React.Component {
           />
           <Visi judul="Misi" konten1={<Misi />} />
           <Media/>
-          <Partnership />
+          <Sponsors/>
           <Footer />
         </main>
       </div>
