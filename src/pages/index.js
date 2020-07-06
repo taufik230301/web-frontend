@@ -2,7 +2,6 @@ import React from "react";
 import Join from "../components/join/join";
 import Event from "../components/about/about";
 import Visi from "../components/visi/visi";
-import Partnership from "../components/partnership/partnership";
 import Misi from "../components/visi/misi";
 import Events from "../components/events/events";
 import Example from "../components/navbar/navbar";

@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../components/header/header";
 import Navbar from "../components/navbar/navbar";
-import Partnership from "../components/partnership/partnership";
 import Footer from "../components/footer/footer";
 
 import GridStyles from "~/assets/styles/grid.module.css";
