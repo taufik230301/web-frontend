@@ -24,15 +24,6 @@ class Footer extends React.Component {
                   <FontAwesomeIcon icon={faWhatsapp} /> <p>0822-825-12539</p>{" "}
                 </a>
               </Col>
-              <Col lg="3" className="ig">
-                <a
-                  href="mailto:palembangdigital01@gmail.com"
-                  target="_blank"
-                  rel="noreferrer">
-                  <FontAwesomeIcon icon={faEnvelopeSquare} />{" "}
-                  <p>palembangdigital01@gmail.com</p>
-                </a>
-              </Col>
               <Col lg="3">
                 <a
                   href="https://www.instagram.com/palembang_digital/"
@@ -49,6 +40,15 @@ class Footer extends React.Component {
                   rel="noreferrer">
                   <FontAwesomeIcon icon={faYoutubeSquare} />{" "}
                   <p>palembang_digital</p>
+                </a>
+              </Col>
+              <Col lg="3" className="ig">
+                <a
+                  href="mailto:palembangdigital01@gmail.com"
+                  target="_blank"
+                  rel="noreferrer">
+                  <FontAwesomeIcon icon={faEnvelopeSquare} />{" "}
+                  <p>palembangdigital01@gmail.com</p>
                 </a>
               </Col>
             </Row>

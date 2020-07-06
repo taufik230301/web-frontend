@@ -42,7 +42,7 @@
         "imageUrl": "/images/teams/Novita.jpg",
         "links": {
             "github": "https://github.com/hinovita",
-            "linkedin": "www.linkedin.com/in/hinovita",
+            "linkedin": "www.linkedin.com/in/hinovitah",
             "instagram": "https://www.instagram.com/hi_novita/"
         }
     },
@@ -89,7 +89,7 @@
     },
     {
         "name": "Deny Malyono",
-        "job": "DevOps Engineer",
+        "job": "Site Reliability Engineer",
         "imageUrl": "/images/teams/Malyono.jpg",
         "links": {
             "github": "https://github.com/maximalyono"
@@ -113,6 +113,14 @@
             "github": "https://github.com/azhry",
             "linkedin": "https://www.linkedin.com/in/azhary-arliansyah",
             "instagram": "https://instagram.com/azharyarliansyah"
+        }
+    },
+    {
+        "name": "Ramanandha Pradana",
+        "job": "Product Manager",
+        "imageUrl": "/images/teams/nandha.jpeg",
+        "links": {
+            
         }
     },
     {
@@ -159,7 +167,10 @@
         "imageUrl": "/images/teams/Udin.jpg",
         "links": {
             "github": "https://github.com/Misbahudin04",
+            "linkedin": "https://www.linkedin.com/in/misbahudin-munadi-0557461a0/",
             "instagram": "https://www.instagram.com/save_udin/"
+            
+
         }
     },
     {
@@ -202,11 +213,11 @@
         }
     },
     {
-        "name": "Gerry Jeven Timoti",
-        "job": "Graphic Designer & Video Editor",
-        "imageUrl": "/images/teams/Gery.jpeg",
+        "name": "Nayaka Al Syahreal Kanaka",
+        "job": "Video Editor",
+        "imageUrl": "/images/teams/alka.jpeg",
         "links": {
-            "instagram": "https://www.instagram.com/gerryjeven/"
+            "linkedin": "https://id.linkedin.com/in/alkanayaka"
         }
     }
 ]

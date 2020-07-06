@@ -70,6 +70,9 @@ main {
   #tentang p {
     font-size: 11px;
   }
+  #tentang {
+    width: 90%;
+  }
 }
 @media (max-width: 500px) {
   #tentang h1,
