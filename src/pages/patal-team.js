@@ -21,7 +21,7 @@ class PatalTeam extends React.PureComponent {
   componentDidMount() {
     this.setState({
       first_row_members: TeamData.slice(0, 2),
-      remainder_row_members: TeamData.slice(2, TeamData.length),
+      remainder_row_members: TeamData.slice(0, TeamData.length),
     });
   }
 
@@ -31,23 +31,6 @@ class PatalTeam extends React.PureComponent {
         <Header />
         <Navbar />
         <div className={`${TeamStyles["mainBg"]} ${PaddingStyles["p8"]}`}>
-          <div className={`${TeamStyles["titleContainer"]}`}>
-            <h2 className={`${TeamStyles["subtitle"]}`}>Patal</h2>
-            <h1 className={`${TeamStyles["title"]}`}>People</h1>
-          </div>
-          <div
-            className={`${GridStyles["grid"]} ${TeamStyles["gridTeamsFirst"]} ${TeamStyles["gridTeams"]}`}>
-            {this.state.first_row_members.map((team, i) => (
-              <div key={i} className={`${TeamStyles["centerMargin"]}`}>
-                <MemberCard
-                  name={team.name}
-                  job={team.job}
-                  imageUrl={team.imageUrl}
-                  links={team.links || {}}
-                />
-              </div>
-            ))}
-          </div>
           <div
             className={`${GridStyles["grid"]} ${TeamStyles["gridTeamsRemainder"]} ${TeamStyles["gridTeams"]}`}>
             {this.state.remainder_row_members.map((team, i) => (

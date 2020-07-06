@@ -89,7 +89,7 @@
     },
     {
         "name": "Deny Malyono",
-        "job": "DevOps Engineer",
+        "job": "Site Reliability Engineer",
         "imageUrl": "/images/teams/Malyono.jpg",
         "links": {
             "github": "https://github.com/maximalyono"
@@ -113,6 +113,14 @@
             "github": "https://github.com/azhry",
             "linkedin": "https://www.linkedin.com/in/azhary-arliansyah",
             "instagram": "https://instagram.com/azharyarliansyah"
+        }
+    },
+    {
+        "name": "Ramanandha Pradana",
+        "job": "Product Manager",
+        "imageUrl": "/images/teams/nandha.jpeg",
+        "links": {
+            
         }
     },
     {
@@ -202,11 +210,11 @@
         }
     },
     {
-        "name": "Gerry Jeven Timoti",
-        "job": "Graphic Designer & Video Editor",
-        "imageUrl": "/images/teams/Gery.jpeg",
+        "name": "Nayaka Al Syahreal Kanaka",
+        "job": "Video Editor",
+        "imageUrl": "/images/teams/alka.jpeg",
         "links": {
-            "instagram": "https://www.instagram.com/gerryjeven/"
+            "instagram": "https://id.linkedin.com/in/alkanayaka"
         }
     }
 ]

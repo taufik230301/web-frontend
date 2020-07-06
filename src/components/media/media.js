@@ -11,7 +11,7 @@ function MediaList(){
                     'https://i.ibb.co/7nts4xq/SRIPOKU.png',
                     'https://i.ibb.co/hFbTH9z/RMOLSUMSEL.png',
                     'https://i.ibb.co/60gR678/PERISTIWABANGSA.png',
-                    'https://i.ibb.co/ykqk1Hx/mutiaraindotv.png',
+                    'https://i.ibb.co/jTKZzP4/mutiaraindotv.png',
                     'https://i.ibb.co/b17dpQr/MANABERITA.png',
                     'https://i.ibb.co/Rb7QG24/KAGANGA.pngswNPj',
                     'https://i.ibb.co/jr7KJMj/INFOSEMPURNA.png',

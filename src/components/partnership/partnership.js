@@ -25,6 +25,12 @@ class Partnership extends React.Component {
                   logo={"/images/sponsors/myo.png"}
                 />
               </Col>
+              <Col>
+                <Sponsor
+                  site="https://my-office.co.id"
+                  logo={"/images/sponsors/AGT.png"}
+                />
+              </Col>
             </Row>
           </Container>
         </div>
