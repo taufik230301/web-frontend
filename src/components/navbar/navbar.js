@@ -72,7 +72,7 @@ const NavbarDefault = () => {
             <NavItem
               className={currentPath.startsWith("/patal-team") ? "active" : ""}>
               <GatsbyLink to="/patal-team" className="NavLink">
-                Team
+                Tim
               </GatsbyLink>
             </NavItem>
           </Nav>

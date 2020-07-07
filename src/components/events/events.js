@@ -1,7 +1,7 @@
 import React from "react";
 import "./event.css";
 import Article from "../article/article";
-import EventsData from "../../content/events.json";
+import EventsData from "../../content/event.json";
 import { Container, Row, Col } from "reactstrap";
 import Title from "../title/title";
 
