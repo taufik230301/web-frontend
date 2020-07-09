@@ -1,0 +1,64 @@
+.sponsor {
+  width: 100%;
+  background-color: #e5e5e5;
+  overflow: auto;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  padding-top: 20px;
+
+  .title {
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .overflow {
+    overflow: auto;
+
+    &.box {
+      width: 100%;
+      padding-right: 10px;
+    }
+
+    @media (min-width: 700px) {
+      .box {
+        width: 100%;
+      }
+    }
+
+    &.center-margin {
+      margin: 0 auto;
+
+      .img {
+        padding: 1rem;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        float: left;
+        min-width: 100px;
+
+        &.container {
+          width: 100%;
+          background-color: #ffffff;
+          margin: 0 auto;
+        }
+
+        .bgwhite {
+          background-color: white;
+          margin-left: 20px;
+          margin-right: 20px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          border-radius: 5px;
+        }
+
+        @media (max-width: 700px) {
+          .bgwhite {
+            min-width: 130px;
+          }
+        }
+      }
+    }
+  }
+}

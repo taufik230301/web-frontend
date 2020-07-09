@@ -1,35 +1,36 @@
 import React from "react";
-import Join from "../components/join/join";
-import Event from "../components/about/about";
-import Visi from "../components/visi/visi";
-import Misi from "../components/visi/misi";
-import Events from "../components/events/events";
-import Example from "../components/navbar/navbar";
-import "../../node_modules/bootstrap/dist/css/bootstrap.css";
-import Banner from "../components/banner/banner";
-import Footer from "../components/footer/footer";
-import Header from "../components/header/header";
+import SEO from "~/src/components/atoms/SEO/SEO";
+import Join from "~/src/components/atoms/Join/Join";
+import About from "~/src/components/atoms/About/About";
+import Visi from "~/src/components/atoms/Visi/Visi";
+import Misi from "~/src/components/atoms/Visi/Misi";
+import Events from "~/src/components/atoms/Events/Events";
+import Navbar from "~/src/components/atoms/Navbar/Navbar";
+import Banner from "~/src/components/atoms/Banner/Banner";
+import Footer from "~/src/components/atoms/Footer/Footer";
+import Media from "~/src/components/atoms/Media/Media";
+import Sponsor from "~/src/components/atoms/Sponsor/Sponsor";
 
-import Media from '../components/media/media'
-import Sponsors from "../components/sponsors/sponsor";
+import "~/node_modules/bootstrap/dist/css/bootstrap.css";
+
 class Home extends React.Component {
   render() {
     return (
       <div>
+        <SEO />
         <main>
-          <Header />
-          <Example />
+          <Navbar />
           <Banner />
           <Join />
           <Events />
-          <Event />
+          <About />
           <Visi
             judul="Visi"
             konten1="Menciptakan SDM khususnya masyarakat Sumatera Selatan untuk memiliki kemampuan daya saing yang unggul di bidang digital"
           />
           <Visi judul="Misi" konten1={<Misi />} />
-          <Media/>
-          <Sponsors/>
+          <Media />
+          <Sponsor />
           <Footer />
         </main>
       </div>

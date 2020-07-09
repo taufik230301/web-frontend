@@ -1,9 +1,8 @@
 import React from "react";
+import PropTypes from "prop-types";
+import "lazysizes";
 
-import Flexbox from "~/assets/styles/flexbox.module.css";
-import BorderStyles from "~/assets/styles/border.module.css";
-import FontStyles from "~/assets/styles/font.module.css";
-import CardStyles from "~/src/components/atoms/MemberCard/MemberCard.module.css";
+import s from "~/src/components/atoms/MemberCard/MemberCard.module.scss";
 
 const MemberCard = ({ name, job, imageUrl, links }) => {
   const renderLinks = () =>
@@ -19,24 +18,33 @@ const MemberCard = ({ name, job, imageUrl, links }) => {
 
   return (
     <div
-      className={`${Flexbox["flex"]} ${Flexbox["flexCol"]} ${Flexbox["justifyCenter"]} ${Flexbox["itemsCenter"]} ${CardStyles["card"]}`}>
+      className={`${s["flex"]} ${s["flexCol"]} ${s["justifyCenter"]} ${s["itemsCenter"]} ${s["card"]}`}>
       <img
         alt={name}
         width="216"
         height="216"
-        className={`${BorderStyles["roundedFull"]}`}
-        src={imageUrl}
+        className={`${s["roundedFull"]} lazyload`}
+        data-src={imageUrl}
       />
-      <h3 className={`${FontStyles["fontBold"]} ${CardStyles["my2"]}`}>
-        {name}
-      </h3>
-      <p className={`${CardStyles["subtitle"]}`}>{job}</p>
-      <div className={`${CardStyles["portfolio"]}`}>
-        <div className={`${CardStyles["divider"]}`}></div>
-        <div className={`${CardStyles["portfolioLinks"]}`}>{renderLinks()}</div>
+      <h3 className={`${s["fontBold"]} ${s["my2"]}`}>{name}</h3>
+      <p className={`${s["subtitle"]}`}>{job}</p>
+      <div className={`${s["portfolio"]}`}>
+        <div className={`${s["divider"]}`}></div>
+        <div className={`${s["portfolioLinks"]}`}>{renderLinks()}</div>
       </div>
     </div>
   );
+};
+
+MemberCard.propTypes = {
+  name: PropTypes.string,
+  job: PropTypes.string,
+  imageUrl: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
+  links: PropTypes.object,
+};
+
+MemberCard.defaultProps = {
+  links: {},
 };
 
 export default MemberCard;
