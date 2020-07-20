@@ -18,7 +18,7 @@ class Home extends React.Component {
     return (
       <div>
         <SEO />
-        <main>
+        <main style={{ backgroundColor: "#fafafa" }}>
           <Navbar />
           <Banner />
           <Join />
