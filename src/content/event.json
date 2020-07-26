@@ -1,5 +1,10 @@
 {
-    "content": [        
+    "content": [
+      {
+        "title": "Full Stack Developer",
+        "image_url": "https://i.ibb.co/nz6S6XP/patalstalks.jpg",
+        "registration_url": "https://bit.ly/PatalSTalks1"
+      },
       {
         "title": "Product Development",
         "image_url": "https://i.ibb.co/pL8WG7y/product.jpg",
@@ -9,12 +14,7 @@
         "title": "Karir Software Engineer",
         "image_url": "https://i.ibb.co/Y8gSBQd/photo-2020-07-08-10-03-25.jpg",
         "registration_url": "https://bit.ly/patalshare2"
-      },
-      {
-        "title": "Machine Learning Model",
-        "image_url": "https://i.ibb.co/xCgZQp6/Poster-Workshop-5-2.png",
-        "registration_url": "https://bit.ly/patalv52"
-      } 
+      }       
     ]
   }
   
