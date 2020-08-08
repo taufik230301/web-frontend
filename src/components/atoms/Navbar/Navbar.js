@@ -16,8 +16,6 @@ const NavbarDefault = () => {
     }
   }, [currentPath]);
 
-  console.log(s);
-
   return (
     <div id={s["topNav"]}>
       <Navbar color="light" className={s["topNav"]} light expand="md">
@@ -30,14 +28,14 @@ const NavbarDefault = () => {
             <NavItem className={s["navItem"]}>
               {!currentPath.startsWith("/patal-team") ? (
                 <Link
-                  to={`event`}
+                  to={`events`}
                   smooth={true}
                   duration={1000}
                   className={s["NavLink"]}>
                   Acara
                 </Link>
               ) : (
-                <GatsbyLink to="/#event" className={s["NavLink"]}>
+                <GatsbyLink to="/#events" className={s["NavLink"]}>
                   Acara
                 </GatsbyLink>
               )}

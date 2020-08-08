@@ -8,7 +8,7 @@ import Title from "~/src/components/atoms/Title/Title";
 class Events extends React.Component {
   render() {
     return (
-      <div id={s["events"]}>
+      <div id="events" className={s["eventsContainer"]}>
         <div className={s["acara"]}>
           <Container className={`${s["themedContainer"]} ${s["title"]}`} fluid>
             <div>
