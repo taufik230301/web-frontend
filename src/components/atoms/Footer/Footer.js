@@ -12,7 +12,7 @@ import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
 class Footer extends React.Component {
   render() {
     return (
-      <div id={s["footer"]}>
+      <div id={"footer"} className={s["footerContainer"]}>
         <div className={s["kontak"]}>
           <Container className={s["footer"]} fluid>
             <Row className={s["cp"]}>

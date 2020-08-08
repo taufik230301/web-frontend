@@ -5,7 +5,7 @@ import Title from "~/src/components/atoms/Title/Title";
 
 const About = () => {
   return (
-    <div id={s["tentang"]}>
+    <div id={"tentang"} className={s["tentangContainer"]}>
       <Container className="themed-container" fluid>
         <Title subtitle="Tentang" title="Apa itu Patal?"></Title>
         <p>
