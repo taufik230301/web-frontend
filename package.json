@@ -21,7 +21,7 @@
     "@fortawesome/react-fontawesome": "^0.1.10",
     "bootstrap": "^4.5.0",
     "gatsby": "^2.21.37",
-    "gatsby-cli": "^2.12.47",
+    "gatsby-cli": "^2.12.83",
     "gatsby-plugin-react-helmet": "^3.3.9",
     "gatsby-plugin-sass": "^2.3.10",
     "lazysizes": "^5.2.2",
