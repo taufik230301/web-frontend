@@ -65,7 +65,7 @@ class Footer extends React.Component {
               </Col>
               <Col lg="6" className={s["copyright"]}>
                 <a>
-                  <p>Palembang Digital &copy; Hak Cipta</p>
+                  <p>Palembang Digital &copy; 2020</p>
                 </a>
               </Col>
             </Row>
